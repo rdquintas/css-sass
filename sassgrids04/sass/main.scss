@@ -1,0 +1,30 @@
+ // @import"compass/reset";
+ @import"compass";
+ // @import"breakpoint";
+ @import"susy";
+ @import"includes/variables";
+ // @import"includes/layouts";
+ @import"includes/base";
+ @import"compass/utilities/sprites";
+ @import"cenas/*.png";
+ @include all-cenas-sprites;
+ // $map: layout(auto 12 .25 inside fluid isolate);
+ // body {
+ //     @include container();
+ //     // @include susy-grid-background;
+ //     @include show-grid();
+ // }
+ // .zrq {
+ //     @include isolate(3);
+ //     @include span(6);
+ //     position: relative;
+ //     top: 5px;
+ // }
+ // .a1 {
+ //     @include gallery(1 of 12);
+ //     background-color: $color2;
+ //     padding-top: 30px;
+ //     padding-bottom: 30px;
+ //     text-align: center;
+ //     // @include span(3);
+ // }

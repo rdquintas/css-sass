@@ -1,0 +1,210 @@
+/* line 5, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  /* line 68, ../sass/main.scss */
+  body {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-size: 105%, 100% 24px;
+    background-origin: content-box, border-box;
+    background-clip: content-box, border-box;
+    background-position: left top;
+  }
+  /* line 12, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  body:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media (min-width: 700px) {
+  /* line 68, ../sass/main.scss */
+  body {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+    background-size: 4.77273%, 100% 24px;
+    background-origin: content-box, border-box;
+    background-clip: content-box, border-box;
+    background-position: left top;
+  }
+  /* line 12, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  body:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+/* line 80, ../sass/main.scss */
+.mastHead {
+  width: 100%;
+  float: left;
+  margin-right: 0.22727%;
+  height: 50px;
+  background-color: #007198;
+}
+/* line 85, ../sass/main.scss */
+.mastHead .mh1 {
+  margin-top: 15px;
+  text-align: center;
+  color: #d0b239;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media (min-width: 700px) {
+  /* line 85, ../sass/main.scss */
+  .mastHead .mh1 {
+    margin-left: 76.13636%;
+    width: 4.54545%;
+    float: left;
+    margin-right: 0.22727%;
+  }
+}
+/* line 97, ../sass/main.scss */
+.mastHead .mh2 {
+  margin-top: 15px;
+  text-align: center;
+  color: #d0b239;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media (min-width: 700px) {
+  /* line 97, ../sass/main.scss */
+  .mastHead .mh2 {
+    width: 4.54545%;
+    float: left;
+    margin-right: 0.22727%;
+  }
+}
+/* line 108, ../sass/main.scss */
+.mastHead .mh3 {
+  margin-top: 15px;
+  text-align: center;
+  color: #d0b239;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media (min-width: 700px) {
+  /* line 108, ../sass/main.scss */
+  .mastHead .mh3 {
+    width: 4.54545%;
+    float: left;
+    margin-right: 0.22727%;
+  }
+}
+/* line 117, ../sass/main.scss */
+.mastHead .mh4 {
+  margin-top: 15px;
+  text-align: center;
+  color: #d0b239;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media (min-width: 700px) {
+  /* line 117, ../sass/main.scss */
+  .mastHead .mh4 {
+    width: 4.54545%;
+    float: left;
+    margin-right: 0.22727%;
+  }
+}
+
+/* line 128, ../sass/main.scss */
+.sideBar {
+  overflow: hidden;
+  *zoom: 1;
+}
+@media (min-width: 700px) {
+  /* line 128, ../sass/main.scss */
+  .sideBar {
+    margin-left: 0.47847%;
+    width: 9.31818%;
+    float: left;
+    margin-right: 0.22727%;
+  }
+}
+
+/* line 139, ../sass/main.scss */
+.content {
+  margin-left: 9.31818%;
+  border: 1px solid black;
+}
+@media (min-width: 700px) {
+  /* line 139, ../sass/main.scss */
+  .content {
+    width: 85.68182%;
+    float: left;
+    margin-right: 0.22727%;
+  }
+}

@@ -1,0 +1,43 @@
+/*@font-face {*/
+/*font-family:'GoblinOne';*/
+/*src: font-url('GoblinOne.eot');*/
+/*// src: url('FontName.eot?#iefix') format('embedded-opentype'),*/
+/*// url('FontName-webfont.woff') format('woff'),*/
+/*// url('FontName-webfont.ttf') format('truetype'),*/
+/*// url('FontName-webfont.svg#FontName') format('svg');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+/*}*/
+@font-face {}
+/* line 31, ../sass/includes/_base.scss */
+h2 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+/* line 64, cenas/*.png */
+.cenas-sprite, .cenas-Home-icon, .cenas-Kubuntu-icon-pd2, .cenas-PNG-icon {
+  background-image: url('../img/cenas-s2d4e9ac25e.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss */
+.cenas-Home-icon {
+  background-position: 0 0;
+  height: 32px;
+}
+
+/* line 84, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss */
+.cenas-Kubuntu-icon-pd2 {
+  background-position: 0 -32px;
+  height: 32px;
+}
+
+/* line 84, ../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss */
+.cenas-PNG-icon {
+  background-position: 0 -64px;
+  height: 32px;
+}

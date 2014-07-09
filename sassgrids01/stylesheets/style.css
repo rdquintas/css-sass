@@ -1,0 +1,24 @@
+/* line 7, ../sass/style.scss */
+body {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, transparent 4.54545%, rgba(102, 102, 255, 0.25) 4.54545%, rgba(179, 179, 255, 0.25) 95.45455%, transparent 95.45455%);
+  background-size: 8.33333%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+/* line 12, ../../../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (max-width: 700px) {
+  /* line 11, ../sass/style.scss */
+  .foo {
+    color: blue;
+  }
+}

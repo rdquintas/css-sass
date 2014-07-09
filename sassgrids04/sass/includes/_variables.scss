@@ -1,0 +1,53 @@
+// ************************
+// MAIN VARS
+// ************************
+
+// COLORS
+$color1: #FF0000; // Red
+$color2: #FFBF00; // Orange
+$color3: #FFFF00; // Yellow
+$color4: #7FFF00; // Green
+$color5: #007FFF; // Light Blue
+$color6: #00FFFF; // Cyan
+
+// FONTS
+$fontFamily1: 'GoblinOne';
+$fontFamily2: 'GoblinOne';
+$fontFamily3: 'GoblinOne';
+
+// LAYOUTS
+$screenBig: 1200px;
+$screenMedium: 600px;
+$screenSmall: 400px;
+
+$showBackgroundColumns: hide;  // "show" or "hide"
+
+// ************************
+// SUSY SPECIFIC
+// ************************
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: auto,
+  container-position: center,
+  columns: 12,
+  gutters: .05,
+  column-width: false,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: $showBackgroundColumns,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);

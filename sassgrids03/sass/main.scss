@@ -1,0 +1,146 @@
+@import"bourbon";
+@import"compass";
+@import"compass/reset";
+@import"susy";
+@import "breakpoint";
+
+
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: auto,
+  container-position: center,
+  columns: 21,
+  gutters: .05,
+  column-width: false,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: show,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);
+
+
+$zrq: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: auto,
+  container-position: center,
+  columns: 1,
+  gutters: .05,
+  column-width: false,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: show,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);
+
+$color1: #000000;   //black
+$color2: #D0B239;   //jaguar gold
+$color3: #007198;   //ilusion
+$color4: #FFFFFF;   //whits
+
+body {
+  @include breakpoint(0px 600px) {    
+    @include container($zrq)  
+  }
+
+  // Desktop View 
+  @include breakpoint(700px) {    
+    @include container($susy)  
+  }
+
+}
+
+.mastHead{
+  @include span(100%);
+  // position: fixed;
+  height: 50px;
+  background-color: $color3;
+  .mh1{
+    margin-top: 15px;
+    text-align: center;
+    color: $color2;
+
+      @include breakpoint(700px) {    
+    margin-left: span(16);
+    @include span(1);
+  }
+    
+    @include clearfix;
+  }
+   .mh2{
+    margin-top: 15px;
+    text-align: center;    
+    color: $color2;
+      // Desktop View 
+  @include breakpoint(700px) {    
+    @include span(1);
+  }
+
+    @include clearfix;
+  }
+     .mh3{
+    margin-top: 15px;
+    text-align: center;      
+    color: $color2;
+    @include breakpoint(700px) {    
+    @include span(1);
+  }
+    @include clearfix;
+  }
+     .mh4{
+    margin-top: 15px;
+    text-align: center;      
+    color: $color2;
+  @include breakpoint(700px) {    
+    @include span(1);
+  }  
+    @include clearfix;
+  }
+}
+
+.sideBar{
+  // position: fixed;
+  // margin-top: 50px;
+
+    @include breakpoint(700px) {    
+  margin-left: gutter(10);
+  @include span(2);
+    }
+
+ @include clearfix;
+}
+.content{
+    // margin-top: 50px;
+  margin-left: span(2);
+  border: 1px solid black;
+    @include breakpoint(700px) {    
+  @include span(18);
+  } 
+}
